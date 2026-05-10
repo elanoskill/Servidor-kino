@@ -1,4 +1,4 @@
-
+import 'dotenv/config' 
 import express from "express";
 import router from "./src/router/privado.js";
 import publica from "./src/router/publica.js";
@@ -8,4 +8,4 @@ app.use(express.json());
 app.use("/",router)
 app.use("/index",publica);
 
-export default app
+app.listen(PORTA);
