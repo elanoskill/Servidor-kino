@@ -7,6 +7,9 @@ const PORTA = process.env.PORT || 3000;
 app.use(express.json());
 app.use("/",router)
 app.use("/index",publica);
+app.get("/",(req,res)=>{
+  return res.status(200).json({message:"rodando"})
+})
 
 //app.listen(PORTA);
 export default app;
