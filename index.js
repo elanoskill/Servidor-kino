@@ -8,6 +8,4 @@ app.use(express.json());
 app.use("/",router)
 app.use("/index",publica);
 
-
-
 export default app
