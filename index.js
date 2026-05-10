@@ -8,4 +8,5 @@ app.use(express.json());
 app.use("/",router)
 app.use("/index",publica);
 
-app.listen(PORTA);
+//app.listen(PORTA);
+export default app;
