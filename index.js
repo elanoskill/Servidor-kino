@@ -1,4 +1,4 @@
-//import 'dotenv/config' // ← CERTO: dotenv
+
 import express from "express";
 import router from "./src/router/privado.js";
 import publica from "./src/router/publica.js";
